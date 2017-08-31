@@ -1,0 +1,60 @@
+.tuna{color:darkblue;text-align: center;}
+.coachsm{width:80px;}
+body {
+    background-image: url("images/poloball2.jpg");
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.menu .active {background-color:darkblue;color:white;}
+.menu li a:hover {
+    background-color: #111111;
+}
+.coachmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.coachmenu li {
+    float: left;
+}
+
+.coachmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.coachmenu .active {background-color:darkblue;color:white;border: solid 2px black;}
+.coachmenu img {width:30px; height:30px;}
+.coachmenu li a:hover {
+    background-color: #111111;
+}
+
+.abel{
+    text-align: center;
+}
+
+.video iframe {
+    display: block;
+    margin: 0 auto;
+}
